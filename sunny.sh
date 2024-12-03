@@ -3,7 +3,6 @@
 repo init -u https://github.com/RisingTechOSS/android -b fifteen --git-lfs
 /opt/crave/resync.sh
 
-
 # Remove existing directories to avoid conflicts
 rm -rf device/xiaomi/sunny
 rm -rf device/qcom/common
