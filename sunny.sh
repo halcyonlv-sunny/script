@@ -1,6 +1,9 @@
 #!/bin/bash
 
+# initiating rising repository
 repo init -u https://github.com/RisingTechOSS/android -b fifteen --git-lfs
+
+# syncing rising recovery by crave command
 /opt/crave/resync.sh
 
 # Remove existing directories to avoid conflicts
