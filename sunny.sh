@@ -44,9 +44,6 @@ git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-ea
 
 
 # Source modifications and RisingOS-specific keys
-# for source modification two methods were implied
-
-# Either do this 
 git clone https://github.com/rising-source-mod/android_vendor_lineage.git --depth 1 -b fifteen vendor/lineage
 
 . build/envsetup.sh
