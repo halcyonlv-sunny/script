@@ -49,12 +49,6 @@ git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-ea
 # Either do this 
 # git clone https://github.com/rising-source-mod/android_vendor_lineage.git --depth 1 -b fifteen vendor/lineage
 
-# Or do this
-cd vendor/lineage
-curl -s https://github.com/RisingTechOSS/android_vendor_lineage/commit/114e7aa0798e4f7bc0f8866c9979f9d5a2c72a66.patch | git am
-curl -s https://github.com/RisingTechOSS/android_vendor_lineage/commit/f8a153ad0138477c9cc2c57af95845d7d26ff1c3.patch | git am
-cd ../..
-
 . build/envsetup.sh
 riseup sunny user
 rise b
