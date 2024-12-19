@@ -47,7 +47,7 @@ git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-ea
 
 
 # Source modifications and RisingOS-specific keys
-git clone https://github.com/rising-source-mod/android_vendor_lineage.git --depth 1 -b fifteen vendor/lineage
+git clone https://github.com/halcyonlv-sunny/vendor_halcyon.git --depth 1 -b 15.0 vendor/lineage
 
 . build/envsetup.sh
 riseup sunny user
