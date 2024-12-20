@@ -20,7 +20,7 @@ rm -rf hardware/xiaomi
 rm -rf hardware/qcom-caf/sm8150/media
 rm -rf prebuilts/gcc/linux-x86/aarch64/aarch64-elf
 rm -rf prebuilts/gcc/linux-x86/arm/arm-eabi
-rm -rf vendor/lineage
+rm -rf vendor/halcyon
 
 # Clone device-specific repositories
 git clone https://github.com/halcyonlv-sunny/device_xiaomi_sunny.git -b lineage-22 device/xiaomi/sunny
