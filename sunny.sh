@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -rf vendor/lineage
+
 # initiating rising repository
 repo init -u https://github.com/halcyonproject/manifest -b 15.0 --git-lfs
 
@@ -47,7 +49,7 @@ git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-ea
 
 
 # Source modifications and RisingOS-specific keys
-git clone https://github.com/halcyonlv-sunny/vendor_halcyon.git --depth 1 -b 15.0 vendor/lineage
+git clone https://github.com/halcyonlv-sunny/vendor_halcyon.git --depth 1 -b 15.0 vendor/halcyon
 
 . build/envsetup.sh
 lunch halcyon_sunny-ap3a-userdebug
