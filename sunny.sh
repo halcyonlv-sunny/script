@@ -1,7 +1,5 @@
 #!/bin/bash
 
-rm -rf vendor/lineage
-
 # initiating rising repository
 repo init -u https://github.com/halcyonproject/manifest -b 15.0 --git-lfs
 
