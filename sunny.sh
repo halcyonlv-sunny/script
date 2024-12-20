@@ -50,5 +50,5 @@ git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-ea
 git clone https://github.com/halcyonlv-sunny/vendor_halcyon.git --depth 1 -b 15.0 vendor/lineage
 
 . build/envsetup.sh
-lunch halcyon_sunny-userdebug
+lunch halcyon_sunny-ap2a-userdebug
 make carthage -j$(nproc --all)
