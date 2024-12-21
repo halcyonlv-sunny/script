@@ -5,6 +5,7 @@ repo init -u https://github.com/halcyonproject/manifest -b 15.0 --git-lfs
 
 # syncing rising recovery by crave command
 /opt/crave/resync.sh
+/opt/crave/resync.sh
 
 # Remove existing directories to avoid conflicts
 rm -rf device/xiaomi/sunny
